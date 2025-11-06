@@ -7,8 +7,8 @@ import SignupPage from './components/SignupPage';
 const App = () => (
   <BrowserRouter>
   <Routes>
-    <Route path='/signup' element={<SignupPage/>}/>
-    <Route path ='/protectKey' element ={<Protecter/>} />
+    <Route path='/Sign-Up' element={<SignupPage/>}/>
+    <Route path ='/Configuration' element ={<Protecter/>} />
     <Route path='/' element ={<Home/>}/>
   </Routes>
   </BrowserRouter>

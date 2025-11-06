@@ -5,11 +5,11 @@ import { withRouter } from '../../withRouter';
 const Home = (props) => {
     const jwtToken = Cookies.get('jwt_token'); 
     if(jwtToken === undefined){
-        return <Navigate to="/signup" replace />;
+        return <Navigate to="/Sign-Up" replace />;
     }
     const handleLogout = () => {
         Cookies.remove('jwt_token'); 
-        props.router.navigate('/signup');
+        props.router.navigate('/Sign-Up');
     }
     return(
         <div className='home-container'>

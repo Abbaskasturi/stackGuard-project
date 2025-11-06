@@ -93,7 +93,7 @@ class SignupPage extends Component{
         let cookieToken = token.password; 
         Cookies.set(
             'jwt_token', cookieToken, {expires: 30})
-        this.props.router.navigate('/protectKey');
+        this.props.router.navigate('/Configuration');
     }else{
         this.setState({  
             error: 'Email and Password not matched'

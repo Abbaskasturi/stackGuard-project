@@ -44,7 +44,7 @@ class Protecter extends Component{
     render(){
         const jwtToken = Cookies.get('jwt_token'); 
         if(jwtToken === undefined){
-           return <Navigate to="/signup" replace />; 
+           return <Navigate to="/Sign-Up" replace />; 
         }
         return(
             <div className="proctor-main-container">
