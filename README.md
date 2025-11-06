@@ -35,9 +35,10 @@
 ## Setup Instructions
 ```bash
 git clone <repo-url>
-cd stackguard-frontend
+cd stackguard-project
+cd myapp
 npm install
-npm run dev
+npm start
 
 
 
