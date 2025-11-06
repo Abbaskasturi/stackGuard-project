@@ -1,0 +1,47 @@
+.home-container{
+    width: 1512px; 
+    height: 982px; 
+    background-color: #FFFFFF;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+.header-container{
+   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+   width: 90%; 
+   height: 120px;  
+   padding: 15px;
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.hello-heading{
+    color: #000000; 
+    font-size: 32px; 
+    font-family: "Poppins"; 
+    font-weight : 500; 
+    font-style: 'Medium'; 
+}
+
+.today-para{
+    color: #000000; 
+    font-size: 16px; 
+    font-family: "Poppins"; 
+    font-weight : 400; 
+    font-style: 'Regular'; 
+}
+.logout-btn{
+    color: #FFFFFF; 
+    font-size: 16px; 
+    font-family: "Poppins"; 
+    font-weight : 400; 
+    font-style: 'Regular'; 
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+    border-width: 0px;
+    height: 40px; 
+    width: 100px; 
+}
